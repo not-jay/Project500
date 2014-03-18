@@ -13,4 +13,19 @@ For more information, questions or arrangement, please contact us through: uscpr
 
 ## Contribute code
 
-Fork this repo, make changes, request for pull. That simple! :D
+To contribute code for [this website](http://uscproject500.tk), you have to install the following:
+
+- [NodeJS](http://nodejs.org/) - The platform for running most of the automation tools
+- [Ruby](https://www.ruby-lang.org/en/) and [Compass](http://compass-style.org/) - We use SASS for CSS, so this one's an additional
+- [Yeoman](http://yeoman.io/) - Takes care of the dependencies you'll ever need for building
+
+Then fork this repo, and clone your fork  of it locally. Then `cd` to the cloned directory and run these one after the other:
+
+
+```
+npm install
+bower install
+grunt serve
+```
+
+The last one should run a server, and open the browser. And you're good to go! Development files should be in the `apps` directory. If you're ready to send back changes, just do a commit, push to your fork and request a pull.
