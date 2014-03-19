@@ -1,0 +1,40 @@
+//$icon-font-path: "/bower_components/sass-bootstrap/fonts/";
+//@import 'sass-bootstrap/lib/bootstrap';
+
+.browsehappy {
+    margin: 0.2em 0;
+    background: #ccc;
+    color: #000;
+    padding: 0.2em 0;
+}
+body{
+    font-size:1.6em;
+
+    *{
+        font-family: 'Bitter', serif;
+    }
+
+}
+
+.container{
+    max-width: 980px;
+}
+
+.header,
+.faq h2{
+    color: #060;
+}
+
+img.img-responsive {
+    margin:0 auto;
+}
+
+.socialbuttons > div > *{
+    vertical-align: top;
+
+    &.socialbutton{
+        font-size: 11px;
+        font-family: 'Helvetica Neue', Helvetica, Arial, 'lucida grande', tahoma, verdana, arial, sans-serif;
+        font-weight: bold;
+    }
+}
